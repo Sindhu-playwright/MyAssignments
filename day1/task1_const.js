@@ -1,10 +1,19 @@
 // const is blocked scope, executes only inside {}
-const browserVersion = Edge
 
 function getBrowserVersion(){
-    if (browserVersion == "Edge")
     {
-        const browserVersion = Chrome
+        const browserVersion = "Chrome"
     }
-    console.log(browserVersion)
+//local variable called outside the block => ReferenceError: browserVersion is not defined    
+    console.log(browserVersion)  
 }
+getBrowserVersion()
+
+
+function getBrowserVersion(){
+    {
+        const browserVersion = "Chrome"
+        console.log(browserVersion)  //block scope, called inside the block
+    }  
+}
+getBrowserVersion()

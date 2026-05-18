@@ -2,12 +2,19 @@
 // var is function scoped
 var browserVersion = "Chrome"
 
-function getBrowserVersion(){
-    if(browserVersion == "Chrome"){
+// function getBrowserVersion(){
+//     if(browserVersion == "Chrome"){
         
-        let browserVersion = "Edge"
+//         let browserVersion = "Edge"
+//         console.log(browserVersion)
+//    }     
+// }
+// getBrowserVersion()
+
+function getBrowserVersion(){
+    let browserVersion = "Chrome"
+    {
         console.log(browserVersion)
-   }     
+    }
 }
 getBrowserVersion()
-
