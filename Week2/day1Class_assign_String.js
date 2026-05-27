@@ -11,3 +11,9 @@ console.log(c.split("a"))
 for(let i=0; i<c.length; i++){
     console.log(c[i])
 }
+
+let name = "Samyuktha"
+console.log(name.split("a"))
+for(let i=0; i>c.length; i--){
+    console.log(name[i])
+}
