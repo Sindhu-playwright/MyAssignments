@@ -13,7 +13,7 @@ for(let i=0; i<c.length; i++){
 }
 
 let name = "Samyuktha"
-console.log(name.split("a"))
-for(let i=0; i>c.length; i--){
+console.log(name.split(""))
+for(let i=name.length-1; i>=0; i--){  // will print the name in reverse order
     console.log(name[i])
 }
